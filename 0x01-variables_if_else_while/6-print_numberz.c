@@ -4,8 +4,8 @@ int main(void)
 {
 	int ace;
 
-	for (ace = 0; ace < 10; ace++)
-		Putchar(ace);
+	for (ace = 48; ace < 58; ace++)
+		putchar(ace);
 	putchar('\n');
 	return (0);
 }
